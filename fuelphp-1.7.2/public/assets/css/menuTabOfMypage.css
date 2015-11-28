@@ -1,0 +1,26 @@
+/*丹羽作成・・・後で消すファイル*/
+@CHARSET "UTF-8";
+
+#menu {
+  width:600px;
+  margin:50px auto
+}
+
+/*tab setting*/
+ul.tab li {
+  width:200px;
+  float:left;
+  background:yellow;
+  text-align:center;
+}
+
+ul.tab li a {
+  /* display:block; */
+  width:100px;
+  line-height:40px;
+  outline:none;
+  text-align:center;
+  background:red;
+  color:#000;
+  text-decoration:none;
+}

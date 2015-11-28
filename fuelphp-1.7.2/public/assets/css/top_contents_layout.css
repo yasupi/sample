@@ -1,0 +1,248 @@
+@CHARSET "UTF-8";
+/*content内のレイアウト*/
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝text_searchArea＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#text_searchArea {
+	margin: 80px 0;
+}
+
+#text_searchArea .search_textBox {
+	margin-right: 10px;
+	padding: 10px;
+	width: 420px;
+	height: 100%;
+	float: left;
+}
+
+#text_searchArea .search_submitBox {
+	padding: 10px;
+	width: 100px;
+	float: left;
+}
+
+#text_searchArea form {
+	margin: 0 auto;
+	width: 570px;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+#text_searchArea form input.searchText {
+	padding: 2px 6px;
+	width: 406px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	font-size: 100%;
+}
+
+#text_searchArea form input.searchText:focus {
+	border:1px solid #4D90F0;
+	box-shadow: 0 0 6px rgba(0, 136, 204, 0.4);
+}
+
+#text_searchArea form input[type="submit"] {
+	padding: 4px 6px;
+	width: 100px;
+	line-height: 18px;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -moz-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -ms-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -o-linear-gradient(top, #54B3F2, #469fD6);
+	background-image: linear-gradient(to bottom, #54B3F2, #469FD6);
+	border: 1px solid #498CDE;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px #4196CC;
+	background-color: #44A7E5;
+}
+
+#text_searchArea form input[type="submit"]:hover {
+	background-color: #59BAF7;
+	background-image: -webkit-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -moz-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -ms-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -o-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: linear-gradient(to bottom, #59BAF7, #19A7FF);
+	border: 1px solid #498CDE;
+}
+/* ＝＝＝＝＝＝＝＝＝＝text_searchArea＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */
+
+
+/* ＝＝＝＝＝＝＝＝＝＝#mainArea＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#mainArea {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+/* ＝＝＝＝＝＝＝＝＝＝#main_leftArea＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#mainArea #main_leftArea {
+	margin-right: 20px;
+	width: 680px;
+	float: left;
+	
+}
+
+#mainArea #main_leftArea h2 {
+	padding: 4px 5px 4px 25px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	color: #307293;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#mainArea #main_leftArea #new_imageArea {
+
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList {
+	
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul {
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li {
+	margin: 0 10px 10px;
+	width: 145px;
+	height: 182px;
+	float: left;
+	background-color: #CCCCCC;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li p {
+	margin-top: 2px;
+	font-size: 12px;
+	text-align: center;
+	color: #308ad6;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li a {
+	width: 145px;
+	height: 160px;
+	display: table-cell;
+	line-height: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li .list_border {
+	display: inline-block;
+	border: 1px solid #B3B3B3;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li .list_border:hover {
+	opacity: 0.8;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList ul li a img {
+	max-width: 143px;
+	max-height: 145px;
+}
+
+#mainArea #main_leftArea #new_imageArea #new_imageList {
+	padding: 20px 9px;
+	border: 1px solid  #CCCCCC;
+}
+/* ＝＝＝＝＝＝＝＝＝＝#main_leftArea＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */
+
+
+/* ＝＝＝＝＝＝＝＝＝＝#main_rightArea＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#mainArea #main_rightArea {
+	width: 260px;
+	float: left;
+}
+
+#mainArea #main_rightArea #rankingArea {
+
+}
+
+#mainArea #main_rightArea #rankingArea h3 {
+	padding: 4px 5px;
+	height: 22px;
+	line-height: 24px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	background: url("../img/common/abc.gif") no-repeat center left 20px;;
+	text-align: center;
+	color: #307293;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox {
+	padding: 10px 20px;
+	border: 1px solid #CCCCCC;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox h4 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #666666;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .ranking_imageBox {
+	margin-top: 4px;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .ranking_imageBox .ranking_border {
+	width: 216px;
+	display: inline-block;
+	text-align: center;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .ranking_imageBox .ranking_border a {
+	display: inline-block;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .ranking_imageBox .ranking_border a .list_border {
+	display: inline-block;
+	border: 1px solid #B3B3B3;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox a .list_border img {
+	max-width: 216px;
+	max-height: 216px;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .userInfo {
+	margin-top: 6px;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .userInfo .imageTitle {
+	padding-left: 20px;
+	width: 110px;
+	float: left;
+	background-color: #FFEECC;
+}
+
+#mainArea #main_rightArea #rankingArea .rankingBox .userInfo .user {
+	padding-left: 10px;
+	width: 78px;
+	float: left;
+	background-color: #CCEEFF;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝#main_rightArea＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */
+/* ＝＝＝＝＝＝＝＝＝＝#mainArea＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */

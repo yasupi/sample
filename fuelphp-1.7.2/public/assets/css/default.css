@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+/*ブラウザ初期化*/
+
+html { overflow-y: scroll; }
+
+html, body, div, p, iframe,
+dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+span, pre, code, fieldset, form, input, textarea, blockquote,
+small, strike, strong, sub, sup, tt, var, b, em, u, i, center,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: 'ＭＳ Ｐゴシック','メイリオ',Meiryo,Osaka,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',sans-serif;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;  
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+h1, h2, h3, h4, p, li, a, dt, dd {
+	word-wrap: break-word;
+}
+
+ol, ul { list-style: none; }

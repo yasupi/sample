@@ -1,0 +1,329 @@
+@CHARSET "UTF-8";
+/*ヘッダーレイアウト*/
+
+#headerArea {
+	margin: 0 auto;
+	border-top: 4px solid #999999;
+	background-color: #FFFFFF;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝header＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#header {
+	margin:0 auto ;
+	padding-top: 10px;
+	width:960px;
+	height: 60px;
+	overflow: hidden;
+}
+
+#header h1 {
+	width: 174px;
+	float: left;
+}
+
+#header #header_subArea {
+	width: 466px;
+	height: 100%;
+	float: left;
+	
+}
+
+/*#userAccount領域*/
+#header #userAccount {
+	width: 320px;
+	height: 100%;
+	float: left;
+}
+
+#header #userAccount form {
+	padding: 6px 0 6px 6px;
+	overflow: hidden;
+	position: relative;
+	top: 10px;
+	font-size: 14px;
+}
+
+#header #userAccount form .sign_upBox {
+	margin-right: 6px;
+	width: 140px;
+	height: 100%;
+	float: left;
+}
+
+#header #userAccount form .loginBox {
+	width: 140px;
+	float: left;
+}
+
+#header #userAccount form input[type="submit"] {
+	padding: 4px 6px;
+	width: 70px;
+	line-height: 18px;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -moz-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -ms-linear-gradient(top, #54B3F2, #469FD6);
+	background-image: -o-linear-gradient(top, #54B3F2, #469fD6);
+	background-image: linear-gradient(to bottom, #54B3F2, #469FD6);
+	border: 1px solid #498CDE;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px #4196CC;
+	background-color: #44A7E5;
+}
+
+#header #userAccount form .loginBox input[type="submit"]:hover {
+	background-color: #59BAF7;
+	background-image: -webkit-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -moz-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -ms-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: -o-linear-gradient(top, #59BAF7, #19A7FF);
+	background-image: linear-gradient(to bottom, #59BAF7, #19A7FF);
+	border: 1px solid #498CDE;
+}
+
+#header #userAccount form .sign_upBox input[type="submit"]:hover {
+	background-color: #F7DD59;
+	background-image: -webkit-linear-gradient(top, #F7DD59, #FFD91A);
+	background-image: -moz-linear-gradient(top, #F7DD59, #FFD91A);
+	background-image: -ms-linear-gradient(top, #F7DD59, #FFD91A);
+	background-image: -o-linear-gradient(top, #F7DD59, #FFD91A);
+	background-image: linear-gradient(to bottom, #F7DD59, #FFD91A);
+	border: 1px solid #DEC549;
+}
+
+
+#header #userAccount form .sign_upBox input[type="submit"] {
+	width: 100px;
+	border: 1px solid #DEAC49;
+	background-image: linear-gradient(to bottom, #FFC859, #E6B24C);
+}
+
+#header #userAccount form .loginBox input[type="submit"] {
+	width: 100px;
+}
+
+
+/*//#userAccount領域*/
+/* ＝＝＝＝＝＝＝＝＝＝header＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */
+
+
+/* ＝＝＝＝＝＝＝＝＝＝headerBox＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+
+#headerBox {
+	width: 100%;
+	min-height: 36px;
+	background: #666666 url("../img/common/bt.gif") right top repeat-x;
+}
+
+
+#headerBox #headerBar {
+	margin: 0 auto;
+	width: 980px;
+	height: 36px;
+}
+
+#headerBox #headerBar #barLeft,
+#headerBox #headerBar #barRight {
+	width: 10px;
+	height: 36px;
+	float: left;
+}
+
+#headerBox #headerBar #barLeft { background: url("../img/common/b.gif") no-repeat; }
+
+#headerBox #headerBar #barRight { background: url("../img/common/a.gif") no-repeat; }
+
+#headerBox #headerBar #headerNavi {
+	width: 960px;
+	float: left;
+	overflow: hidden;
+}
+
+#headerBox #headerBar #headerNavi li {
+	width: 160px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	background: #FFFFFF url("../img/common/botton.gif") no-repeat;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#headerBox #headerBar #headerNavi li a {
+	height: 100%;
+	line-height: 36px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#headerBox #headerBar #headerNavi .actives {
+	float: left;
+	min-height: 36px;
+	width: 100%;
+	line-height: 36px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#headerBox #categoryNavi {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+#headerBox #categoryNavi .hide {
+	display:none;
+}
+
+#headerBox #categoryNavi .category {
+	padding: 16px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+
+#headerBox #categoryNavi .category ul {
+	overflow: hidden;
+}
+
+#headerBox #categoryNavi .category ul li {
+	margin: 0 10px;
+	padding: 8px;
+	float: left;
+	border: 1px solid #999999;
+}
+
+#headerBox #categoryNavi .category ul li:hover {
+	background-color: #66C1FF;
+}
+
+#headerBox #categoryNavi .category ul li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝sliderArea＝CSS＝START＝＝＝＝＝＝＝＝＝＝ */
+#sliderArea {
+	width: 100%;
+	border-top: 4px solid #999999;
+}
+
+#sliderArea #slide {
+	height: 220px;
+	clear: both;
+	position: relative;
+	background-color: #333333;
+}
+
+#slide .slideGuide {
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slide .slideCtrl {
+	height: 100%;
+	width: 30px;
+	display: none;
+	position: absolute;
+	top: 0;
+	background: url("../img/common/hatch.png") repeat #676767;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 12px;
+	opacity: 0.8;
+	text-align: center;
+}
+
+#slide .Ctrl_left {
+	left: 0;
+}
+
+#slide .Ctrl_right {
+	right: 0;
+}
+
+#slide .slideGuide li {
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+}
+/* ＝＝＝＝＝＝＝＝＝＝sliderArea＝CSS＝END＝＝＝＝＝＝＝＝＝＝ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*下記CSS後で削除予定　一時的に存在させてるだけ
+#login{ 
+
+	width:400px;
+	height:125px;
+	position:relative;
+	text-align:center;
+} 
+*/
