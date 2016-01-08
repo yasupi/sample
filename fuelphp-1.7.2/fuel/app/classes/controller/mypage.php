@@ -5,7 +5,7 @@ class Controller_Mypage extends Controller_Common {
 		// echo DOCROOT;
 	}
 
-	// 画像アップロード//
+	// 画像アップロード
 	public function action_upload() {
 		//header('Content-Type: image/jpeg');
 		Config::load ( 'upload_images', true );
